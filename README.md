@@ -8,3 +8,5 @@ Robert Buj Gelonch, rbuj
 - Exercici 3
   - Unzip PAC3_Ex3
   - Completa els exercicis
+- Exercici 4
+  - Unzip PAC3_Ex4
