@@ -4,3 +4,4 @@ Robert Buj Gelonch, rbuj
   - Respon a la pregunta teòrica
 - Exercici 2
   - Unzip PAC3_Ex2
+  - Respon a les preguntes teòriques
