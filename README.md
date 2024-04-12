@@ -10,3 +10,4 @@ Robert Buj Gelonch, rbuj
   - Completa els exercicis
 - Exercici 4
   - Unzip PAC3_Ex4
+  - Configuració bàsica per a TS
