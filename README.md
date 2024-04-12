@@ -5,3 +5,5 @@ Robert Buj Gelonch, rbuj
 - Exercici 2
   - Unzip PAC3_Ex2
   - Respon a les preguntes teòriques
+- Exercici 3
+  - Unzip PAC3_Ex3
