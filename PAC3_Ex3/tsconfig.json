@@ -1,12 +1,31 @@
 {
+  /* `compilerOptions`: aquestes opcions constitueixen la major part de la configuració de TypeScript i
+     cobreixen com hauria de funcionar el llenguatge. */
   "compilerOptions": {
-    /* Basic Options */
-    "target": "es2015", 
-    "module": "commonjs", 
-    "outDir": "./dist",   
-    "rootDir": "./src", 
-    "strict": true,
+    /* Estableix la versió base d'ECMAScript per a la sortida (es2015).
+       Valors possibles: es3, es5, es6/es2015, es2016, es2017, es2018, es2019, es2020, es2021, es2022, esnext */
+    "target": "es2015",
+    /* Estableix el sistema de mòduls per a la generació de codi (commonjs).
+       Valors possibles: none, commonjs, amd, umd, system, es6/es2015, es2020, es2022, esnext, node16, nodenext */
+    "module": "commonjs",
+    "outDir": "./dist", /* Especifica el directori de sortida */
+    "rootDir": "./src", /* Especifica el directori arrel dels fitxers d'entrada */
+    "strict": true, /* Activa totes les opcions estrictes de verificació de tipus. */
+    /* `incremental` indica a TypeScript que desi informació sobre el gràfic del projecte des de l'última
+        compilació dins de fitxers emmagatzemats al disc (veure `tsBuildInfoFile`). */
     "incremental": true,
+    /* `tsBuildInfoFile` permet especificar un fitxer on emmagatzemar la informació de compilació incremental
+        que permet accelerar la creació de bases de codi TypeScript grans. */
     "tsBuildInfoFile": "./buildcache",
   }
 }
+/* Més informació:
+  https://www.typescriptlang.org/tsconfig#compilerOptions
+  https://www.typescriptlang.org/tsconfig#target
+  https://www.typescriptlang.org/tsconfig#module
+  https://www.typescriptlang.org/tsconfig#outDir
+  https://www.typescriptlang.org/tsconfig#rootDir
+  https://www.typescriptlang.org/tsconfig#strict
+  https://www.typescriptlang.org/tsconfig#incremental
+  https://www.typescriptlang.org/tsconfig#tsBuildInfoFile
+*/

@@ -7,3 +7,4 @@ Robert Buj Gelonch, rbuj
   - Respon a les preguntes teòriques
 - Exercici 3
   - Unzip PAC3_Ex3
+  - Completa els exercicis
