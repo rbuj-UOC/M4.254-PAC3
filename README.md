@@ -11,3 +11,4 @@ Robert Buj Gelonch, rbuj
 - Exercici 4
   - Unzip PAC3_Ex4
   - Configuració bàsica per a TS
+  - Implementació dels fitxers TS
