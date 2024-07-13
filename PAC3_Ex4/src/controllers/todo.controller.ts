@@ -1,3 +1,7 @@
+import { TodoService } from '../services/todo.service';
+import { TodoView } from '../views/todo.view';
+import { Todo } from '../models/todo';
+
 /**
  * @class TodoController
  *
@@ -6,7 +10,7 @@
  * @param model
  * @param view
  */
-class TodoController {
+export class TodoController {
     service: TodoService;
     view: TodoView;
     onTodoListChanged: (todos: Todo[]) => void;

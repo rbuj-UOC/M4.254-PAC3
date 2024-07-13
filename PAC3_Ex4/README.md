@@ -22,3 +22,15 @@ This application consists of `index.html`, `script.js`, and `style.css`. This me
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+## Build
+
+```
+npx webpack
+```
+
+or
+
+```
+npx webpack --no-watch
+```

@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es2015",
-    "module": "commonjs",
-    "outDir": "./dist",
-    "rootDir": "./src",
-    "strict": true,
-    "incremental": true,
-    "tsBuildInfoFile": "./buildcache",
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node"
   }
 }

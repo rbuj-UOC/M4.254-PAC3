@@ -1,9 +1,11 @@
+import { Todo } from '../models/todo';
+
 /**
  * @class TodoService
  *
  * Manages the data of the application.
  */
-class TodoService {
+export class TodoService {
     todos: Todo[];
     onTodoListChanged: ((todos: Todo[]) => void) | undefined;
 

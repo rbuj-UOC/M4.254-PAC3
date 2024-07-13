@@ -1,9 +1,11 @@
+import { Todo } from '../models/todo';
+
 /**
  * @class TodoView
  *
  * Visual representation of the model.
  */
-class TodoView {
+export class TodoView {
     app: any;
     form: any;
     input: any;
