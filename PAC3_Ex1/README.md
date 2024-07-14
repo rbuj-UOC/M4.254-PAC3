@@ -12,7 +12,7 @@ TypeScript és una extensió de llenguatge que afegeix funcionalitats a ECMAScri
 En l'exemple, en la segona assignació de la instància `dog` de l'objecte `Dog`, s'assigna el valor `true` a la propietat `kind` de tipus `string`.
 
 ```
-$ tsc exer1.ts 
+$ npx tsc exer1.ts 
 exer1.ts:14:3 - error TS2322: Type 'boolean' is not assignable to type 'string'.
 
 14   kind: true,

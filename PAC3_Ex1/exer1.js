@@ -1,7 +1,7 @@
 let dog;
 
 dog = {
-  kind: "mammal",
+  kind: 'mammal',
   weight: 10
 };
 

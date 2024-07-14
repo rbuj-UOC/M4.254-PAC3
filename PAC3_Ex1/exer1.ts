@@ -6,7 +6,7 @@ interface Dog {
 let dog: Dog;
 
 dog = {
-  kind: "mammal",
+  kind: 'mammal',
   weight: 10
 };
 
