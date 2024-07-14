@@ -1,4 +1,5 @@
 # 🔱 MVC.js
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 Simple todo MVC application in plain JavaScript

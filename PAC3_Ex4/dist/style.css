@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 html {
@@ -21,11 +21,11 @@ form {
   margin-bottom: 2rem;
 }
 
-[type="text"],
+[type='text'],
 button {
   display: inline-block;
   -webkit-appearance: none;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   font-size: 1rem;
   border: 2px solid #ccc;
   border-radius: 4px;
@@ -36,20 +36,20 @@ button {
   background: #007bff;
   color: white;
   border: 2px solid #007bff;
-  margin: 0 .5rem;
+  margin: 0 0.5rem;
 }
 
-[type="text"] {
+[type='text'] {
   width: 100%;
 }
 
-[type="text"]:active,
-[type="text"]:focus {
+[type='text']:active,
+[type='text']:focus {
   outline: 0;
   border: 2px solid #007bff;
 }
 
-[type="checkbox"] {
+[type='checkbox'] {
   margin-right: 1rem;
   font-size: 2rem;
 }
@@ -73,7 +73,7 @@ li {
 
 li span {
   display: inline-block;
-  padding: .5rem;
+  padding: 0.5rem;
   width: 250px;
   border-radius: 4px;
   border: 2px solid transparent;
@@ -86,5 +86,5 @@ li span:hover {
 li span:focus {
   outline: 0;
   border: 2px solid #007bff;
-  background: rgba(179, 207, 255, 0.52)
+  background: rgba(179, 207, 255, 0.52);
 }
