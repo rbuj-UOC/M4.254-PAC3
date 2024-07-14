@@ -9,7 +9,7 @@ const c = {
 };
 const d = c.apple * 4;
 ```
-![VS Code](code1.png "VS Code")
+![VS Code](code1.avif "VS Code")
 En el codi anterior, `c.banana` és `boolean`, mentre que `b` és `number`. El fet que es mostri aquest tipus d'error, ajuda a corregir errors que serien més difícils de trobar i corregir en JavaScript.
 ```
 $ tsc code1.ts 
