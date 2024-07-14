@@ -1,5 +1,7 @@
 # Exercici 2 – Primers codis a TypeScript (3 punts)
+
 ## Modifica el codi de code1.ts per aconseguir un TypeError
+
 ```TS
 const a = 1 + 2;
 const b = a + 3;
@@ -9,10 +11,12 @@ const c = {
 };
 const d = c.apple * 4;
 ```
+
 ![VS Code](code1.avif "VS Code")
 En el codi anterior, `c.banana` és `boolean`, mentre que `b` és `number`. El fet que es mostri aquest tipus d'error, ajuda a corregir errors que serien més difícils de trobar i corregir en JavaScript.
+
 ```
-$ tsc code1.ts 
+$ npx tsc code1.ts
 code1.ts:9:3 - error TS2322: Type 'number' is not assignable to type 'boolean'.
 
 9   banana: b
@@ -26,7 +30,9 @@ code1.ts:9:3 - error TS2322: Type 'number' is not assignable to type 'boolean'.
 
 Found 1 error in code1.ts:9
 ```
-code1.js 
+
+code1.js
+
 ```JS
 var a = 1 + 2;
 var b = a + 3;
@@ -38,6 +44,7 @@ var d = c.apple * 4;
 ```
 
 ## Per a cadascun dels valors del fitxer code2.ts, quin tipus de dades inferirà TypeScript? Expliqueu per què s'ha inferit aquest tipus de dades.
+
 ```TS
 const a = 1042;
 const b = 'apples and oranges';
@@ -66,6 +73,7 @@ console.log(`h, tipus: ${typeof h}, valor: ${h}`);
 ```
 
 sortida
+
 ```
 /usr/local/bin/node ./PAC3_Ex2/code2.ts
 a, tipus: number, valor: 1042
@@ -88,10 +96,12 @@ h, tipus: object, valor: null
 TypeScript intenta inferir en el tipus en la inicialització de les variables.
 
 ## Per què es dispara cadascun dels errors del fitxer code3.ts?
+
 ```TS
 const i: 3 = 3;
 i = 4; // Error TS2588 : Cannot assign to 'i' because it is a constant.ts(2588)
 ```
+
 La variable `i` s'ha definit com a constant i és de tipus primari, per tant no es pot modificar el valor un cop s'ha assignat encara que sigui del mateix tipus.
 
 ```TS
@@ -99,17 +109,20 @@ const j = [1, 2, 3];
 j.push(4);
 j.push('5'); // Error TS2345: Argument of type '"5"' is not assignable to parameter of type 'number'.
 ```
+
 No es pot afegir un `string` a un array on tots els elements de l'array han de ser de tipus `number`, l'array no és multitipus.
 
 ```TS
 let k: never = 4; // Error TSTS2322: Type '4' is not assignable to type 'never'.
 ```
+
 No pot ser que la variable no prengui mai cap valor `: never` i després s'assigni un valor `4`.
 
 ```TS
 let l: unknown = 4;
 let m = l * 2; // Error TS2571: Object is of type 'unknown'.
 ```
+
 No es poden fer operacions aritmètiques amb una variable de tipus `unknown`.
 
 ## Quina és la diferència entre una classe i una interfície a TypeScript?
