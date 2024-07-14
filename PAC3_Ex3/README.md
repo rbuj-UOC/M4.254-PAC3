@@ -20,20 +20,6 @@ npx tsc
 3. teclejar `default formatter`
 4. Seleccionar l'opció `Prettier`
 
-
-Evitar el tancament d'etiquetes void quam es dona format a documents html amb Prettier:
-```
-npm install -D @awmottaz/prettier-plugin-void-html
-```
-[prettier-plugin-void-html](https://github.com/awmottaz/prettier-plugin-void-html)
-
-Afegir el connector al fitxer [.prettierrc.json](.prettierrc.json)
-```json
-{
-  "plugins": ["@awmottaz/prettier-plugin-void-html"]
-}
-```
-
 ## Configuració d'Emmet
 1. Obrir les preferències de l'espai de treball a VS Code, en macOS: ⌘,
 2. Seleccionar `Workspace`
