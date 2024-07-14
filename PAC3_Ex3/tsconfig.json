@@ -17,6 +17,7 @@
     /* `tsBuildInfoFile` permet especificar un fitxer on emmagatzemar la informació de compilació incremental
         que permet accelerar la creació de bases de codi TypeScript grans. */
     "tsBuildInfoFile": "./buildcache",
+    "sourceMap": true
   }
 }
 /* Més informació:

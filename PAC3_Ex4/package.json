@@ -6,6 +6,10 @@
   "keywords": [],
   "author": "Tania Rascia",
   "license": "MIT",
+  "scripts": {
+    "compile": "webpack --mode none",
+    "watch": "webpack --mode none --watch"
+  },
   "devDependencies": {
     "ts-loader": "^9.5.1",
     "typescript": "^5.5.3",

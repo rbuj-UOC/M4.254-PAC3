@@ -23,10 +23,10 @@ printArray(array); // 3,4,1
 array.unshift(8);
 printArray(array); // 8,3,4,1
 /** check if every number is greater than 3 */
-let everyisgreater = array.every((v) => v > 3);
+const everyisgreater = array.every((v) => v > 3);
 console.log(everyisgreater); // false
 /** check if every number is less than 10 */
-let everyisless = array.every((v) => v < 10);
+const everyisless = array.every((v) => v < 10);
 console.log(everyisless); // true
 console.log(array.sort()); // 1,3,4,8
 console.log(array.reverse()); // 8,4,3,1
