@@ -15,11 +15,11 @@ class Dog extends Animal {
   }
 
   public iamadog() {
-    console.log("yes, this is a dog");
+    console.log('yes, this is a dog');
   }
 
   public sound(): void {
-    console.log("WOW");
+    console.log('WOW');
   }
 }
 
@@ -32,19 +32,19 @@ class Cat extends Animal {
   }
 
   public iamacat() {
-    console.log("yes, this is a cat");
+    console.log('yes, this is a cat');
   }
 
   public sound(): void {
-    console.log("MEOW");
+    console.log('MEOW');
   }
 }
 
 const animals: Animal[] = [];
-animals.push(new Cat("male"));
-animals.push(new Dog("white"));
-animals.push(new Cat("female"));
-animals.push(new Dog("black"));
+animals.push(new Cat('male'));
+animals.push(new Dog('white'));
+animals.push(new Cat('female'));
+animals.push(new Dog('black'));
 
 for (const animal of animals) {
   animal.sound();

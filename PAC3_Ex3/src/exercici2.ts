@@ -9,14 +9,14 @@ interface HangarHash {
 
 const myHangar: HangarHash = {};
 
-myHangar["123Z"] = {
-  model: "airbus",
-  npassengers: 200,
+myHangar['123Z'] = {
+  model: 'airbus',
+  npassengers: 200
 };
 
-myHangar["H789"] = {
-  model: "boeing",
-  npassengers: 151,
+myHangar['H789'] = {
+  model: 'boeing',
+  npassengers: 151
 };
 
 /** Print following lines (going through the object)

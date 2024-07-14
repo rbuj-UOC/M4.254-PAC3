@@ -1,6 +1,6 @@
 function printArray(array: Array<number>): void {
   //code to print the array on console
-  let ans: string = "";
+  let ans: string = '';
   for (let i: number = 0; i < array.length; i++) {
     if (i === array.length) {
       ans += `${array[i]}\n`;
