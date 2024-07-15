@@ -11,6 +11,8 @@
     "watch": "webpack --mode none --watch"
   },
   "devDependencies": {
+    "@awmottaz/prettier-plugin-void-html": "^1.6.0",
+    "prettier": "^3.3.3",
     "ts-loader": "^9.5.1",
     "typescript": "^5.5.3",
     "webpack": "^5.93.0",
