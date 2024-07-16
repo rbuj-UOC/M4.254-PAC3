@@ -12,9 +12,14 @@
   },
   "devDependencies": {
     "@awmottaz/prettier-plugin-void-html": "^1.6.0",
+    "@eslint/js": "^8.56.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.8.0",
     "prettier": "^3.3.3",
     "ts-loader": "^9.5.1",
     "typescript": "^5.5.3",
+    "typescript-eslint": "^7.16.1",
     "webpack": "^5.93.0",
     "webpack-cli": "^5.1.4"
   }
