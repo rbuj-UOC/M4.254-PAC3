@@ -14,7 +14,7 @@ export class TodoService {
     if (todosText) {
       this.todos = (JSON.parse(todosText) || []).map((todo: { complete: boolean; text: any } | undefined) => new Todo(todo));
     } else {
-      this.todos = new Array() as Array<Todo>;
+      this.todos = [] as Array<Todo>;
     }
   }
 
