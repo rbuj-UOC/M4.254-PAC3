@@ -7,23 +7,24 @@
   "author": "Tania Rascia",
   "license": "MIT",
   "scripts": {
+    "build": "webpack build --mode production --no-watch",
     "compile": "webpack --mode none",
     "watch": "webpack --mode none --watch",
     "lint": "eslint **/*.ts --ignore-pattern node_modules/"
   },
   "devDependencies": {
-    "@awmottaz/prettier-plugin-void-html": "^1.6.1",
-    "@eslint/js": "^9.11.1",
-    "eslint": "^9.11.1",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.2.1",
-    "globals": "^15.10.0",
-    "prettier": "^3.3.3",
-    "prettier-eslint": "^16.3.0",
-    "ts-loader": "^9.5.1",
-    "typescript": "^5.6.2",
-    "typescript-eslint": "^8.8.0",
-    "webpack": "^5.95.0",
-    "webpack-cli": "^5.1.4"
+    "@awmottaz/prettier-plugin-void-html": "^1.8.0",
+    "@eslint/js": "^9.29.0",
+    "eslint": "^9.29.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.5.0",
+    "globals": "^16.2.0",
+    "prettier": "^3.5.3",
+    "prettier-eslint": "^16.4.2",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.34.1",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
   }
 }
